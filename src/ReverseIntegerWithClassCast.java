@@ -25,7 +25,8 @@ public class ReverseIntegerWithClassCast {
 
         // Print the result
         System.out.println(result);
+
     }
 }
 
-}
+
