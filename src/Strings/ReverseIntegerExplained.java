@@ -1,3 +1,5 @@
+package Strings;
+
 public class ReverseIntegerExplained {
 
     public static void main(String[] args) {
