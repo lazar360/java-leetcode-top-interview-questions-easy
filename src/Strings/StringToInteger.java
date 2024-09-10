@@ -22,7 +22,7 @@ public class StringToInteger {
 
         // Step 3: Convert digits to integer
         while (i < s.length() && Character.isDigit(s.charAt(i))) {
-            result = result * 10 + (s.charAt(i) - '0');
+            result = result * 10 + (s.charAt(i) - '0'); // formule pour convertir un caractère en chiffre
             if (result > Integer.MAX_VALUE) {
                 return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
             }
